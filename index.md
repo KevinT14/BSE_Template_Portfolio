@@ -5,7 +5,7 @@ This will serve as a brief description of your project. Limit this to three sent
 |:--:|:--:|:--:|:--:|
 |Kevin Taylor|Paul D. Schreiber High School|Mechanical Engineering|Incoming Senior|
 
-![Headstone_Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvector-images%2Fno-image-available.html&psig=AOvVaw3JmqNYYWLQm3FT7_9CzTbK&ust=1625923306315000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIjJ4bqK1vECFQAAAAAdAAAAABAD)
+![Headstone_Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3ANo_image_available.svg&psig=AOvVaw1ocoEGTibsto9Urt86EpYP&ust=1625924029504000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKCSoZSN1vECFQAAAAAdAAAAABAN)
   
 # Final Milestone
 Work in progress 
