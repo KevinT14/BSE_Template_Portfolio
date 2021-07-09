@@ -5,17 +5,17 @@ This will serve as a brief description of your project. Limit this to three sent
 |:--:|:--:|:--:|:--:|
 |Kevin Taylor|Paul D. Schreiber High School|Mechanical Engineering|Incoming Senior|
 
-![Headstone Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvector-images%2Fno-image-available.html&psig=AOvVaw3JmqNYYWLQm3FT7_9CzTbK&ust=1625923306315000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIjJ4bqK1vECFQAAAAAdAAAAABAD)
+![HeadstoneImage](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvector-images%2Fno-image-available.html&psig=AOvVaw3JmqNYYWLQm3FT7_9CzTbK&ust=1625923306315000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIjJ4bqK1vECFQAAAAAdAAAAABAD)
   
 # Final Milestone
 Work in progress 
 
-[![Final Milestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
+[![FinalMilestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
 
 # Second Milestone
 Work in progress
 
-[![Third Milestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
+[![ThirdMilestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
 # First Milestone
   
 
