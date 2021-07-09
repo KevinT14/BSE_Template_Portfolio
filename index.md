@@ -8,12 +8,12 @@ This will serve as a brief description of your project. Limit this to three sent
 ![Headstone Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvector-images%2Fno-image-available.html&psig=AOvVaw3JmqNYYWLQm3FT7_9CzTbK&ust=1625923306315000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIjJ4bqK1vECFQAAAAAdAAAAABAD)
   
 # Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+Work in progress 
 
 [![Final Milestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+Work in progress
 
 [![Third Milestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
 # First Milestone
