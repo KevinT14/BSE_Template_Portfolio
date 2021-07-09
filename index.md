@@ -10,12 +10,12 @@ This will serve as a brief description of your project. Limit this to three sent
 # Final Milestone
 Work in progress 
 
-![Final_Milestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
+![Final_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
 
 # Second Milestone
 Work in progress
 
-![Third_Milestone](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.jbhwheelchair.com%2Fproducts%2Fmobility-scooter%2Ffdb-05%2F&psig=AOvVaw2aQaXhHUPBds-F24d7f2Fr&ust=1625923350677000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjKq9GK1vECFQAAAAAdAAAAABAK)
+![Third_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
 # First Milestone
   
 
