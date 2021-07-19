@@ -141,7 +141,7 @@ void loop() {
 }
 ```
 
-![Third_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
+![Second_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
 # First Milestone
   
 
