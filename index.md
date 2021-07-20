@@ -141,9 +141,9 @@ void loop() {
 }
 ```
 
-![Second_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
+[![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626788408/video_to_markdown/images/youtube--f0e14o7PyWI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=f0e14o7PyWI "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
-  
+
 
 My first milestone was creating a system that beeps at a different rate depending on the distance of an object from the ultrasonic sensor. To do this, all that was needed was an ultrasonic sensor, an uno R3, a buzzer, and some jumper wires. Additionally, the Arduino IDE software was used for coding. In order to set up the materials, the VCC pin on the ultrasonic sensor had to be connected to 5V on the Uno, the Trig pin was connected to 9 on the Uno, the Echo pin was connected to 8 on the Uno, and finally, the Gnd pin was connected to Gnd on the Uno. To connect the buzzer, its positive pin was connected to another Gnd on the Uno, and the negative pin was assigned to number 10. Then for the code I declared the components as variables depending on what Uno pin they were attached to, declared different parts as inputs and outputs, and calculated distance depending on the time it takes for the ultrasonic ray to bounce off of an object and return. Then with the more logic-based code in which we actually make the buzzer beep depending on distance, I ran into some problems. The biggest issue was using the delay() function to create pauses between beeps because this caused the sensor's intake to delay as well. Instead I had to redo the code using the millis() function which keeps track of how much time the program has been running. Then with some new variables and if statements I was able to make it so that the time between beeps repeated at the accurate rate.
 
