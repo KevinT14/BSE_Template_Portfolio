@@ -1,5 +1,5 @@
 ﻿# "Third Eye" for the Visually Impaired
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+This piece of technology for the visually impaired has object avoidance capabilites, allowing a user to switch between vibrations and sound to indicate the distance from an object ahead.  Along with the object avoidance, image recognition software will then classify the specific object or image, creating a greater understanding of the user's surroundings.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
