@@ -6,7 +6,20 @@ This piece of technology for the visually impaired has object avoidance capabili
 |Kevin Taylor|Paul D. Schreiber High School|Mechanical Engineering|Incoming Senior|
 
 ![Headstone_Image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png)
-  
+
+Materials:
+- Elegoo Uno R3 (1)
+- Ultrasonic Sensor (1)
+- Buzzer (1)
+- Push Button (1)
+- Vibration Motor (1)
+- Battery pack for 4 AA batteries (1)
+- Perfboard (1)
+- Resistor (1)
+- Male to Female Jumper Wires (8)
+- Male to Male Jumper Wires (4)
+- Soldering Iron Kit (1)
+
 # Final Milestone
 Work in progress 
 
