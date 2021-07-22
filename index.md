@@ -1,4 +1,4 @@
-﻿# "Third Eye" for the Visually Impaired
+﻿# "Third Eye" for the Visually Impaired with Image Recognition
 This piece of technology for the visually impaired has object avoidance capabilites, allowing a user to switch between vibrations and sound to indicate the distance from an object ahead.  Along with the object avoidance, image recognition software will then classify the specific object or image, creating a greater understanding of the user's surroundings.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
