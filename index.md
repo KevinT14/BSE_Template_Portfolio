@@ -7,7 +7,7 @@ This piece of technology for the visually impaired has object avoidance capabili
 
 ![Headstone_Image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png)
 
-Materials:
+# Materials:
 - Elegoo Uno R3 (1)
 - Ultrasonic Sensor (1)
 - Buzzer (1)
