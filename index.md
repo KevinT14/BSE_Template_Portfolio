@@ -40,7 +40,7 @@ My second milestone was adding a battery, vibration motor, and button. Due to th
 
 ![Tinkercad_Image](https://github.com/KevinT14/KevinTaylor_BSE_Portfolio/raw/gh-pages/Screen%20Shot%202021-07-20%20at%2010.45.54%20AM.png)
 
-# Beneath is my full code setup
+# Beneath is my full Arduino code setup
 
 Instatiating:
 ```c++
