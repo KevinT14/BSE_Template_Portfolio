@@ -40,8 +40,10 @@ My second milestone was adding a battery, vibration motor, and button. Due to th
 
 ![Tinkercad_Image](https://github.com/KevinT14/KevinTaylor_BSE_Portfolio/raw/gh-pages/Screen%20Shot%202021-07-20%20at%2010.45.54%20AM.png)
 
-```
-My code
+# Beneath is my full code setup
+
+Instatiating:
+```c++
 const int trig = 9;
 const int echo = 8;
 
@@ -58,7 +60,10 @@ unsigned long vibrateStart;
 
 int duration = 0;
 int distance = 0;
+```
 
+Setup:
+```c++
 void setup() {
   pinMode(trig, OUTPUT);
   pinMode(echo, INPUT);
@@ -70,7 +75,10 @@ void setup() {
 
   Serial.begin(9600);
 }
+```
 
+Logic and carrying out the desired functions:
+```c++
 void loop() {
   digitalWrite(trig, HIGH);
   delayMicroseconds(1000);
@@ -132,7 +140,10 @@ void loop() {
     noTone(buzzer);
     digitalWrite(vibrateMotor, LOW);
   }
-
+```
+Added methods for the button:
+Works by declaring a status of the button as high or low. Then by clicking the button, the status changes and it switches from using the buzzer to creating feedback with the vibration motor.
+```c++
   if (digitalRead(button) == HIGH) {
     delay(50);
     status = !status;
