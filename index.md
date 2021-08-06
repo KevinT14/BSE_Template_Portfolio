@@ -166,7 +166,7 @@ void loop() {
 }
 ```
 
-[![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626788408/video_to_markdown/images/youtube--f0e14o7PyWI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=f0e14o7PyWI "Second Milestone"){:target="_blank" rel="noopener"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f0e14o7PyWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 # First Milestone
 
 
