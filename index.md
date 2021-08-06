@@ -278,4 +278,4 @@ void loop() {
 }
 ```
 
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626441431/video_to_markdown/images/youtube--oqjgrrg4sWs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=oqjgrrg4sWs "First Milestone"){:target="_blank" rel="noopener"}
+[![First Milestone]<iframe width="560" height="315" src="https://www.youtube.com/embed/oqjgrrg4sWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
