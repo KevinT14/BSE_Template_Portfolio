@@ -42,7 +42,7 @@ My second milestone was adding a battery, vibration motor, and button. Due to th
 
 # Beneath is my full Arduino code setup
 
-Instatiating:
+Instantiating:
 ```c++
 const int trig = 9;
 const int echo = 8;
