@@ -28,7 +28,7 @@ Work in progress
 # Fourth Milestone (EDIT)
 Work in progress 
 
-![Final_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vv6weVz1yds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Third Milestone (EDIT)
 My third milestone is the first step in developing the machine learning for object detection. I used the cifar-100 dataset which contains 100 labels stemming from dinosaurs to chairs to cars to people. Because this project is dedicated to be helpful to the blind community, some of the pictues and labels involved in this dataset would not be very useful, such as dinosaurs as mentioned before. Thus, I preprocessed the dataset and made a new one incorporating only 24 labels out of the 100 label dataset. This includes only the necessary objects for blind travel safety, as well as increasing the accuracy by decreasing the amount of different labels.
