@@ -7,7 +7,7 @@ This piece of technology for the visually impaired has object avoidance capabili
 
 ![Headstone_Image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png)
 
-# Materials:
+# Materials: (EDIT)
 - Elegoo Uno R3 (1)
 - Ultrasonic Sensor (1)
 - Buzzer (1)
@@ -20,20 +20,20 @@ This piece of technology for the visually impaired has object avoidance capabili
 - Male to Male Jumper Wires (4)
 - Soldering Iron Kit (1)
 
-# Final Milestone
+# Final Milestone (EDIT)
 Work in progress 
 
 ![Final_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
 
-# Fourth Milestone
+# Fourth Milestone (EDIT)
 Work in progress 
 
 ![Final_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
 
-# Third Milestone
+# Third Milestone (EDIT)
 My third milestone is the first step in developing the machine learning for object detection. I used the cifar-100 dataset which contains 100 labels stemming from dinosaurs to chairs to cars to people. Because this project is dedicated to be helpful to the blind community, some of the pictues and labels involved in this dataset would not be very useful, such as dinosaurs as mentioned before. Thus, I preprocessed the dataset and made a new one incorporating only 24 labels out of the 100 label dataset. This includes only the necessary objects for blind travel safety, as well as increasing the accuracy by decreasing the amount of different labels.
 
-![Final_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NXVRN5Wpwk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Second Milestone
 My second milestone was adding a battery, vibration motor, and button. Due to the addition of a battery, the system is now more portable and a user would not have to carry around a laptop in order for the sensor to work. Because of the addition of a vibration motor and button, a user now has the ability to click the button and choose whether they want the information to be given to them through vibrations or sound. This is because many people that are visually impaired may also be hearing impaired, so a buzzer would not be helpful to them. In order to set this up, one pin of the battery is connected to GND on the arduino via a breadboard that was added for the button, with the other pin connected to the Vin pin on the arduino. Next, one leg of the vibration motor was also connected to GND with its other attached to digital pin 7. The button was then attached to the breadboard via a  resistor and more wires, and it is all connected to the 3.3V pin on the arduino, as well as GND and digital pin 2. When it comes to coding, the addition of the vibration motor was somewhat simple, as it used similar logic to what I had established before with the millis() function. Then with the button it was difficult to make different actions occur after clicking as opposed to when holding the button down or not. This section of code needed many embedded if and else statements to make sure each function of my system worked perfectly. Eventually it was all completed accurately with this setup and code:
