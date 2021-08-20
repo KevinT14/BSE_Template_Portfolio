@@ -19,11 +19,13 @@ This piece of technology for the visually impaired has object avoidance capabili
 - Male to Female Jumper Wires (8)
 - Male to Male Jumper Wires (4)
 - Soldering Iron Kit (1)
+- Raspberry Pi with Camera (1)
+- Laptop
 
 # Final Milestone (EDIT)
 Work in progress 
 
-![Final_Milestone](http://www.jbhwheelchair.com/wp-content/uploads/2016/05/novideo.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bff5ibKSAwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Fourth Milestone (EDIT)
 Work in progress 
@@ -31,7 +33,28 @@ Work in progress
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vv6weVz1yds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Third Milestone (EDIT)
-My third milestone is the first step in developing the machine learning for object detection. I used the cifar-100 dataset which contains 100 labels stemming from dinosaurs to chairs to cars to people. Because this project is dedicated to be helpful to the blind community, some of the pictues and labels involved in this dataset would not be very useful, such as dinosaurs as mentioned before. Thus, I preprocessed the dataset and made a new one incorporating only 24 labels out of the 100 label dataset. This includes only the necessary objects for blind travel safety, as well as increasing the accuracy by decreasing the amount of different labels.
+My third milestone is the first step in developing the machine learning for object detection. I used the cifar-100 dataset which contains 100 labels stemming from dinosaurs to chairs to cars to people. Because this project is dedicated to be helpful to the blind community, some of the pictues and labels involved in this dataset would not be very useful, such as water mammals, fish, and dinosaurs. Thus, I preprocessed the dataset and made a new one incorporating only 24 labels out of the 100 label dataset. This includes only the necessary objects for blind travel safety, as well as increasing the accuracy by decreasing the amount of different labels.  Here is the code used to preprocess my training dataset:
+
+```c++
+from tensorflow.python.ops.numpy_ops import np_array_ops
+x_train = []
+y_train = []
+
+desired_values = np.array([5, 8, 9, 10, 11, 13, 16, 20, 25, 28, 35, 37, 40, 
+                           46, 48, 58, 61, 68, 81, 84, 86, 87, 94, 98])
+print(len(target_train))
+for i in range(len(target_train)):
+  if target_train[i] in desired_values:
+    y_train.append(target_train[i])
+    x = input_train[i].astype(np.uint8)
+    img = Image.fromarray(x)
+    img = img.resize((224, 224), Image.ANTIALIAS)
+    x_train.append(np.asarray(img))
+
+print(len(y_train))
+```
+First, x_train and y_train are created as arrays for my new dataset.  The original data was stored in variables called input_train and target_train.  In the loop, only the desired values of target_train (which are the actual labels for the pictures) are being added into the new dataset.  What this means is that only the desired images from the original cifar-100 dataset are being added into my new arrays.  I also printed the lengths of target_train and then y_train and compared them.  Target_train was initially 50,000 images and since I used 24% of the labels in cifar-100, y_train had a length of 12,000.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NXVRN5Wpwk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
