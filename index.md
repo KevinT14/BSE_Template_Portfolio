@@ -28,11 +28,11 @@ Work in progress
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bff5ibKSAwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Fourth Milestone (EDIT)
-Work in progress 
+My fourth milestone consists of creating and training my model for object detection.  After preprocessing the dataset in the third milestone, I tried to use a VGG-16 architecture and create my own model using the basic structure of VGG-16.  However, when adding maxpooling and denses to my original dataset, which consisted of pictures that were 32 by 32, the math in condensing the pictures did not work out and it gave me nearly 0% accuracy in training and testing.  Instead, I used a pre-made VGG-16 model that was built into tensorflow on Google Colab.  Initially it worked for training, but yet again, I got low testing accuracy due to the fact that this model accounted for 1000 classes while my dataset only had 100 (which was brought down even further to only 24 different classes).  Finally, I solved this problem by declaring my own input and output for the model.  I had to resize my images to be 224 by 224 and declare my testing for only 100 classes instead of 1000.  In between the input and output I put the built in VGG-16 model.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vv6weVz1yds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Third Milestone (EDIT)
+# Third Milestone
 My third milestone is the first step in developing the machine learning for object detection. I used the cifar-100 dataset which contains 100 labels stemming from dinosaurs to chairs to cars to people. Because this project is dedicated to be helpful to the blind community, some of the pictues and labels involved in this dataset would not be very useful, such as water mammals, fish, and dinosaurs. Thus, I preprocessed the dataset and made a new one incorporating only 24 labels out of the 100 label dataset. This includes only the necessary objects for blind travel safety, as well as increasing the accuracy by decreasing the amount of different labels.  Here is the code used to preprocess my training dataset:
 
 ```c++
