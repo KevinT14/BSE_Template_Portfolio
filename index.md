@@ -23,7 +23,7 @@ This piece of technology for the visually impaired has object avoidance capabili
 - Laptop
 
 # Final Milestone (EDIT)
-Work in progress 
+After having a completely trained model, my fifth milestone consists of downloading my model and implementing it on my laptop's camera.  First, I converted the model into tflite and downloaded it from Google Colab.  Afterward, I tried to get the model to run on the raspberry pi; however, I ran into a lot of issues, including my vnc viewer crashing and my file size being too massive, so I decided to run the model using my laptop camera instead.  To do this, I ran the model on XCode and my laptop's terminal.  While my camera is picking up objects
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bff5ibKSAwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
