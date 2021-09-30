@@ -5,8 +5,6 @@ This piece of technology for the visually impaired has object avoidance capabili
 |:--:|:--:|:--:|:--:|
 |Kevin Taylor|Paul D. Schreiber High School|Mechanical Engineering|Incoming Senior|
 
-![Headstone_Image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png)
-
 # Materials: (EDIT)
 - Elegoo Uno R3 (1)
 - Ultrasonic Sensor (1)
@@ -23,12 +21,12 @@ This piece of technology for the visually impaired has object avoidance capabili
 - Laptop
 
 # Final Milestone (EDIT)
-After having a completely trained model, my fifth milestone consists of downloading my model and implementing it on my laptop's camera.  First, I converted the model into tflite and downloaded it from Google Colab.  Afterward, I tried to get the model to run on the raspberry pi; however, I ran into a lot of issues, including my vnc viewer crashing and my file size being too massive, so I decided to run the model using my laptop camera instead.  To do this, I ran the model on XCode and my laptop's terminal.  While my camera is picking up objects
+After having a completely trained model, my fifth milestone consists of downloading my model and implementing it on my laptop's camera.  First, I converted the model into tflite and downloaded it from Google Colab.  Afterward, I tried to get the model to run on the raspberry pi; however, I ran into a lot of issues, including my vnc viewer crashing and my file size being too massive, so I decided to run the model using my laptop camera instead.  To do this, I ran the model on XCode and my laptop's terminal.  While my camera runs, the machine learning algorithm processes the individual pixels and makes predictions as to what the object is.  So, when the camera is facing a car, new predictions stating "car" are printed each second.  This is then used as a means for the visually impaired to understand their surroundings to a deeper degree and stay safe.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bff5ibKSAwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Fourth Milestone (EDIT)
-My fourth milestone consists of creating and training my model for object detection.  After preprocessing the dataset in the third milestone, I tried to use a VGG-16 architecture and create my own model using the basic structure of VGG-16.  However, when adding maxpooling and denses to my original dataset, which consisted of pictures that were 32 by 32, the math in condensing the pictures did not work out and it gave me nearly 0% accuracy in training and testing.  Instead, I used a pre-made VGG-16 model that was built into tensorflow on Google Colab.  Initially it worked for training, but yet again, I got low testing accuracy due to the fact that this model accounted for 1000 classes while my dataset only had 100 (which was brought down even further to only 24 different classes).  Finally, I solved this problem by declaring my own input and output for the model.  I had to resize my images to be 224 by 224 and declare my testing for only 100 classes instead of 1000.  In between the input and output I put the built in VGG-16 model.
+My fourth milestone consists of creating and training my model for object detection.  After preprocessing the dataset in the third milestone, I tried to use a VGG-16 architecture and create my own model using the basic structure of VGG-16.  However, when adding maxpooling and denses to my original dataset, which consisted of pictures that were 32 by 32, the math in condensing the pictures did not work out and it gave me nearly 0% accuracy in training and testing.  Instead, I used a pre-made VGG-16 model that was built into tensorflow on Google Colab.  Initially it worked for training, but yet again, I got low testing accuracy due to the fact that this model accounted for 1000 classes while my dataset only had 100 (which was brought down even further to only 24 different classes).  Finally, I solved this problem by declaring my own input and output for the model.  I had to resize my images to be 224 by 224 and declare my testing for only 100 classes instead of 1000.  In between the input and output I put the built in VGG-16 model.  The final result was a testing accuracy of above 70%, which is relatively high for a dataset of 24 labels. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vv6weVz1yds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
